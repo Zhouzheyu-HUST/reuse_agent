@@ -1,0 +1,15 @@
+{
+    "results_dir": "results",
+    "temp_dir": "tmp",
+
+    "app_package_config_path": "configs/app_package_config.json",
+    "eval_single_datasets_path": "benchmark/data/single_app.json",
+    "eval_multi_datasets_path": "benchmark/data/multi_app.json",
+    "eval_api_path": "configs/api_settings.json",
+    "eval_dir": "evaluation",
+    "usage_tracking_name": "eval_token_consumption.json",
+    "eval_excel_name_no_cache": "高校智能体缓存复用前测评表.xlsx",
+    "eval_excel_name_with_cache": "高校智能体缓存复用后测评表.xlsx",
+    "eval_overall_excel_name_no_cache": "缓存复用前所有任务总指标表.xlsx",
+    "eval_overall_excel_name_with_cache": "缓存复用后所有任务总指标表.xlsx"
+}

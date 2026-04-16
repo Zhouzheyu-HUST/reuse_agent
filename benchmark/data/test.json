@@ -1,0 +1,31 @@
+[
+    {
+        "task_id": "bilibili_0",
+        "app": "哔哩哔哩",
+        "query": "在B站播放老番茄的最新一期视频",
+        "gt_steps": 6,
+        "key_component": [
+            "简介",
+            "老番茄"
+        ]
+    },
+    {
+        "task_id": "settings_0",
+        "app": "设置",
+        "query": "打开防误触模式",
+        "gt_steps": 5,
+        "key_component": [
+            "防误触模式"
+        ]
+    },
+    {
+        "task_id": "music_0",
+        "app": "音乐",
+        "query": "打开音乐帮我搜索江南这首歌并播放",
+        "gt_steps": 5,
+        "key_component": [
+            "江南",
+            "音乐"
+        ]
+    }
+]

@@ -1,0 +1,7 @@
+huggingface_hub
+transformers
+accelerate
+torch
+fastapi
+uvicorn
+qwen-vl-utils[decord]==0.0.8

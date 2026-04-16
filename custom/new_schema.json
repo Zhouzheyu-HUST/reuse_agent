@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "description": "极简版 Agent 动作定义 - 适配 Qwen3-VL 极速输出",
+  "properties": {
+    "thought": { "type": "string", "description": "思考过程" },
+    "open": { "type": "string", "description": "【系统级指令】无视当前页面状态，直接强制跳转到指定应用。严禁先返回桌面再打开。"
+},
+    "point": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 0, "maximum": 1000 },
+      "minItems": 2, "maxItems": 2,
+      "description": "坐标 [x, y]"
+    },
+    "duration": { "type": "integer", "minimum": 0, "description": "长按时长(ms)" },
+    "to": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 0, "maximum": 1000 },
+      "minItems": 2, "maxItems": 2,
+      "description": "滑动终点 [x, y]"
+    },
+    "type": { "type": "string", "description": "输入文本内容" },
+    "press": {
+      "type": "string",
+      "enum": ["back", "home", "enter"],
+      "description": "系统按键。警告：严禁使用'home'回到桌面后来切换应用！打开应用必须使用'open'指令。"
+    },
+    "status": { 
+      "type": "string", 
+      "enum": ["finish"], 
+      "description": "任务状态" 
+    }
+  },
+  "required": ["thought"],
+  "additionalProperties": false,
+  "oneOf": [
+    { "required": ["open"] },
+    { "required": ["point"] },
+    { "required": ["type"] },
+    { "required": ["press"] },
+    { "required": ["status"] }
+  ]
+}

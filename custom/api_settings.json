@@ -1,0 +1,21 @@
+{    
+    "llm_comment": "这是除了agent以外用到的大模型",
+    "llm_model": "Qwen3-VL-8B-Instruct",
+    "llm_endpoints": "http://localhost:5000/v1/chat/completions",
+    "llm_api_key": "sk-1234",
+    "llm_check_way": "openai",
+
+    "agent_comment": "这是agent的大模型",
+    "agent_model": "Qwen3-VL-8B-Instruct",
+    "agent_endpoints": "http://localhost:5000/v1/chat/completions",
+    "agent_api_key": "sk-1234",
+    "agent_check_way": "openai",
+
+    "reflect_comment": "这是reflect模型",
+    "reflect_model": "Qwen3-VL-4B-Instruct",
+    "reflect_endpoints": "http://localhost:6000/v1/chat/completions",
+    "reflect_api_key": "sk-1234",
+    "reflect_check_way": "openai",
+
+    "reuse_enable": true
+}

@@ -1,0 +1,48 @@
+[
+    {
+        "task_id": "settings_0",
+        "app": [
+            "音乐",
+            "设置"
+        ],
+        "query": "打开音乐帮我搜索江南这首歌，然后进入设置打开WIFI",
+        "gt_steps": 9,
+        "subtasks": {
+            "subtask_1": {
+                "app": "音乐",
+                "task": "搜索江南这首歌",
+                "history": false,
+                "memory": "None"
+            },
+            "subtask_2": {
+                "app": "设置",
+                "task": "打开WIFI",
+                "history": false,
+                "memory": "None"
+            }
+        }
+    },
+    {
+        "task_id": "settings_1",
+        "app": [
+            "图库",
+            "设置"
+        ],
+        "query": "查看图库第一张照片，然后进入设置打开WIFI",
+        "gt_steps": 6,
+        "subtasks": {
+            "subtask_1": {
+                "app": "图库",
+                "task": "查看第一张照片",
+                "history": false,
+                "memory": "None"
+            },
+            "subtask_2": {
+                "app": "设置",
+                "task": "打开WIFI",
+                "history": false,
+                "memory": "None"
+            }
+        }
+    }
+]

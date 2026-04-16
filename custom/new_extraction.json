@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "description": "Agent 极简动作输出审核规则",
+  "properties": {
+    "thought": {
+      "type": "string",
+      "description": "思考结果：描述当前操作"
+    },
+    "open": {
+      "type": "string",
+      "description": "需要打开的应用名称"
+    },
+    "point": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 0, "maximum": 1000 },
+      "minItems": 2, "maxItems": 2,
+      "description": "坐标 [x, y]，需归一化到 0-1000"
+    },
+    "duration": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "长按持续时间（毫秒）"
+    },
+    "to": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 0, "maximum": 1000 },
+      "minItems": 2, "maxItems": 2,
+      "description": "滑动终点坐标 [x, y]"
+    },
+    "type": {
+      "type": "string",
+      "description": "输入的文本内容"
+    },
+    "press": {
+      "type": "string",
+      "enum": ["back", "home", "enter", "appselect"],
+      "description": "系统物理/导航按键"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["continue", "finish"],
+      "description": "任务执行状态"
+    }
+  },
+  "additionalProperties": false,
+  "anyOf": [
+    { "required": ["open"] },
+    { "required": ["point"] },
+    { "required": ["type"] },
+    { "required": ["press"] },
+    { "required": ["status"] }
+  ],
+  "dependencies": {
+    "to": ["point"],
+    "duration": ["point"]
+  }
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "task_id": "bilibili_0",
+        "app": "哔哩哔哩",
+        "query": "在B站播放老番茄的最新一期视频并点赞",
+        "gt_steps": 7,
+        "key_component": [
+            "简介",
+            "老番茄"
+        ]
+    },
+    {
+        "task_id": "xiaohongshu_0",
+        "app": "小红书",
+        "query": "小红书搜索口红推荐的帖子并收藏",
+        "gt_steps": 7,
+        "key_component": [
+            "口红推荐"
+        ]
+    }
+]

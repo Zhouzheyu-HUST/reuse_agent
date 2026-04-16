@@ -1,0 +1,884 @@
+[
+    {
+        "task_id": "58tongcheng_3",
+        "app": "58同城",
+        "query": "打开58同城，查看我的简历",
+        "gt_steps": 3,
+        "key_component": [
+            "简历"
+        ]
+    },
+    {
+        "task_id": "58tongcheng_4",
+        "app": "58同城",
+        "query": "打开58同城，搜索租车",
+        "gt_steps": 4,
+        "key_component": [
+            "租车"
+        ]
+    },
+    {
+        "task_id": "tielu12306_4",
+        "app": "铁路12306",
+        "query": "打开铁路12306，查看我的候补订单",
+        "gt_steps": 3,
+        "key_component": [
+            "候补订单"
+        ]
+    },
+    {
+        "task_id": "tielu12306_6",
+        "app": "铁路12306",
+        "query": "打开铁路12306，查看明天从长沙南到北京的火车票",
+        "gt_steps": 12,
+        "key_component": [
+            "长沙南<>北京"
+        ]
+    },
+    {
+        "task_id": "hanglvezongheng_3",
+        "app": "航旅纵横",
+        "query": "打开航旅纵横，查看明天天从北京首都国际机场到长沙黄花国际机场的飞机票",
+        "gt_steps": 13,
+        "key_component": [
+            "长沙黄花",
+            "北京首都"
+        ]
+    },
+    {
+        "task_id": "hanglvezongheng_5",
+        "app": "航旅纵横",
+        "query": "打开航旅纵横，查看今天出发CA1235航班的动态",
+        "gt_steps": 9,
+        "key_component": [
+            "CA1235"
+        ]
+    },
+    {
+        "task_id": "zhongguoguohang_1",
+        "app": "中国国航",
+        "query": "打开中国国航，查看我的机票订单",
+        "gt_steps": 3,
+        "key_component": [
+            "机票订单"
+        ]
+    },
+    {
+        "task_id": "zhongguoguohang_3",
+        "app": "中国国航",
+        "query": "打开中国国航，查看明天从长沙黄花国际机场到北京首都国际机场的飞机票，两张成人票，一张儿童票",
+        "gt_steps": 17,
+        "key_component": [
+            "长沙-北京首都"
+        ]
+    },
+    {
+        "task_id": "taobao_4",
+        "app": "淘宝",
+        "query": "打开淘宝，搜索商品笔记本电脑",
+        "gt_steps": 4,
+        "key_component": [
+            "笔记本"
+        ]
+    },
+    {
+        "task_id": "taobao_6",
+        "app": "淘宝",
+        "query": "打开淘宝，搜索商品羽毛球拍",
+        "gt_steps": 4,
+        "key_component": [
+            "羽毛球拍"
+        ]
+    },
+    {
+        "task_id": "xianyu_1",
+        "app": "闲鱼",
+        "query": "打开闲鱼，查看我的收藏",
+        "gt_steps": 3,
+        "key_component": [
+            "收藏的宝贝"
+        ]
+    },
+    {
+        "task_id": "xianyu_5",
+        "app": "闲鱼",
+        "query": "打开闲鱼，搜索固态硬盘2TB",
+        "gt_steps": 4,
+        "key_component": [
+            "固态"
+        ]
+    },
+    {
+        "task_id": "xianyu_6",
+        "app": "闲鱼",
+        "query": "打开闲鱼，搜索商品二手4090显卡",
+        "gt_steps": 4,
+        "key_component": [
+            "4090"
+        ]
+    },
+    {
+        "task_id": "baidu_2",
+        "app": "百度",
+        "query": "打开百度，搜索华中科技大学",
+        "gt_steps": 4,
+        "key_component": [
+            "华中科技大学"
+        ]
+    },
+    {
+        "task_id": "baidu_4",
+        "app": "百度",
+        "query": "打开百度，搜索bilibili",
+        "gt_steps": 4,
+        "key_component": [
+            "哔哩哔哩"
+        ]
+    },
+    {
+        "task_id": "zhongguoyidong_4",
+        "app": "中国移动",
+        "query": "打开中国移动，进入设置界面，我需要修改部分设置信息",
+        "gt_steps": 3,
+        "key_component": [
+            "设置"
+        ]
+    },
+    {
+        "task_id": "gaode_4",
+        "app": "高德",
+        "query": "打开高德，探索附近的停车坪",
+        "gt_steps": 3,
+        "key_component": [
+            "停车坪"
+        ]
+    },
+    {
+        "task_id": "gaode_5",
+        "app": "高德",
+        "query": "打开高德，导航去黄鹤楼，自驾导航",
+        "gt_steps": 6,
+        "key_component": [
+            "黄鹤楼"
+        ]
+    },
+    {
+        "task_id": "didichuxing_1",
+        "app": "滴滴出行",
+        "query": "打开滴滴出行，打开客服信息",
+        "gt_steps": 3,
+        "key_component": [
+            "滴滴客服"
+        ]
+    },
+    {
+        "task_id": "didichuxing_4",
+        "app": "滴滴出行",
+        "query": "打开滴滴出行，打开开具发票界面",
+        "gt_steps": 3,
+        "key_component": [
+            "开具发票"
+        ]
+    },
+    {
+        "task_id": "xiaohongshu_2",
+        "app": "小红书",
+        "query": "打开小红书，搜索最新央视新闻",
+        "gt_steps": 5,
+        "key_component": [
+            "央视新闻"
+        ]
+    },
+    {
+        "task_id": "xiaohongshu_4",
+        "app": "小红书",
+        "query": "打开小红书，搜索华中科技大学的校园生活笔记",
+        "gt_steps": 5,
+        "key_component": [
+            "华科"
+        ]
+    },
+    {
+        "task_id": "weixin_4",
+        "app": "微信",
+        "query": "打开微信，通过文件传输助手发送消息给我自己，内容是世界你好",
+        "gt_steps": 3,
+        "key_component": [
+            "文件传输助手"
+        ]
+    },
+    {
+        "task_id": "weixin_7",
+        "app": "微信",
+        "query": "打开微信，查看我的卡包",
+        "gt_steps": 3,
+        "key_component": [
+            "卡包"
+        ]
+    },
+    {
+        "task_id": "QQ_3",
+        "app": "QQ",
+        "query": "打开QQ，同时给我的电脑发送消息，消息是 Hello",
+        "gt_steps": 3,
+        "key_component": [
+            "我的电脑",
+            "Hello"
+        ]
+    },
+    {
+        "task_id": "QQ_5",
+        "app": "QQ",
+        "query": "打开QQ，查看我的QQ文件",
+        "gt_steps": 3,
+        "key_component": [
+            "文件"
+        ]
+    },
+    {
+        "task_id": "bilibili_2",
+        "app": "哔哩哔哩",
+        "query": "打开哔哩哔哩，搜索央视新闻并播放第一个视频",
+        "gt_steps": 5,
+        "key_component": [
+            "央视新闻"
+        ]
+    },
+    {
+        "task_id": "bilibili_3",
+        "app": "哔哩哔哩",
+        "query": "打开哔哩哔哩，搜索央视新闻并进入第一个视频，然后打开评论区",
+        "gt_steps": 6,
+        "key_component": [
+            "评论"
+        ]
+    },
+    {
+        "task_id": "kugouyinyue_2",
+        "app": "酷狗音乐",
+        "query": "打开酷狗音乐，搜索周杰伦的晴天并播放，同时将歌曲添加到我喜欢",
+        "gt_steps": 6,
+        "key_component": [
+            "已添加到我喜欢"
+        ]
+    },
+    {
+        "task_id": "kugouyinyue_5",
+        "app": "酷狗音乐",
+        "query": "打开酷狗音乐，搜索周杰伦的歌曲烟花易冷并播放",
+        "gt_steps": 6,
+        "key_component": [
+            "烟花易冷"
+        ]
+    },
+    {
+        "task_id": "ximalaya_1",
+        "app": "喜马拉雅",
+        "query": "打开喜马拉雅，查看我的浏览历史",
+        "gt_steps": 4,
+        "key_component": [
+            "浏览历史"
+        ]
+    },
+    {
+        "task_id": "ximalaya_3",
+        "app": "喜马拉雅",
+        "query": "打开喜马拉雅，搜索大国博弈并订阅",
+        "gt_steps": 5,
+        "key_component": [
+            "大国博弈",
+            "订阅成功"
+        ]
+    },
+    {
+        "task_id": "QQyinyue_2",
+        "app": "QQ音乐",
+        "query": "打开QQ音乐，搜索周杰伦的晴天并收藏",
+        "gt_steps": 5,
+        "key_component": [
+            "已添加到我喜欢"
+        ]
+    },
+    {
+        "task_id": "QQyinyue_5",
+        "app": "QQ音乐",
+        "query": "打开QQ音乐，搜索周杰伦的歌曲烟花易冷",
+        "gt_steps": 4,
+        "key_component": [
+            "烟花易冷"
+        ]
+    },
+    {
+        "task_id": "weibo_1",
+        "app": "微博",
+        "query": "打开微博，查看我的赞/收藏",
+        "gt_steps": 3,
+        "key_component": [
+            "我的赞"
+        ]
+    },
+    {
+        "task_id": "weibo_5",
+        "app": "微博",
+        "query": "打开微博，搜索武汉大学",
+        "gt_steps": 4,
+        "key_component": [
+            "武汉大学"
+        ]
+    },
+    {
+        "task_id": "tonghuashun_2",
+        "app": "同花顺",
+        "query": "打开同花顺，查看518880的变化信息",
+        "gt_steps": 4,
+        "key_component": [
+            "黄金ETF",
+            "518880"
+        ]
+    },
+    
+    {
+        "task_id": "tonghuashun_4",
+        "app": "同花顺",
+        "query": "打开同花顺，查看自选信息",
+        "gt_steps": 2,
+        "key_component": [
+            "同花顺自选"
+        ]
+    },
+    
+    {
+        "task_id": "kuaishou_4",
+        "app": "快手",
+        "query": "打开快手，搜索央视网直播并打开播放直播",
+        "gt_steps": 5,
+        "key_component": [
+            "央视网"
+        ]
+    },
+    {
+        "task_id": "kuaishou_3",
+        "app": "快手",
+        "query": "打开快手，查看我的粉丝",
+        "gt_steps": 3,
+        "key_component": [
+            "粉丝"
+        ]
+    },
+    {
+        "task_id": "kuaishou_5",
+        "app": "快手",
+        "query": "打开快手，搜索武汉大学",
+        "gt_steps": 4,
+        "key_component": [
+            "武汉大学"
+        ]
+    },
+    {
+        "task_id": "xinlangxinwen_1",
+        "app": "新浪新闻",
+        "query": "打开新浪新闻，查看我的阅读历史",
+        "gt_steps": 3,
+        "key_component": [
+            "阅读历史"
+        ]
+    },
+    {
+        "task_id": "xinlangxinwen_4",
+        "app": "新浪新闻",
+        "query": "打开新浪新闻，搜索华中科技大学",
+        "gt_steps": 2,
+        "key_component": [
+            "华中科技大学"
+        ]
+    },
+    
+    {
+        "task_id": "qimaomianfeixiaoshuo_3",
+        "app": "七猫免费小说",
+        "query": "打开七猫免费小说，搜索斗罗大陆并进入小说详情页并加入书架",
+        "gt_steps": 6,
+        "key_component": [
+            "已加入书架"
+        ]
+    },
+    {
+        "task_id": "qimaomianfeixiaoshuo_1",
+        "app": "七猫免费小说",
+        "query": "打开七猫免费小说，查看我的历史",
+        "gt_steps": 3,
+        "key_component": [
+            "历史"
+        ]
+    },
+    {
+        "task_id": "jinritoutiao_4",
+        "app": "今日头条",
+        "query": "打开今日头条，搜索华中科技大学并进入其主页，然后关注",
+        "gt_steps": 7,
+        "key_component": [
+            "华中科技大学",
+            "已关注"
+        ]
+    },
+    {
+        "task_id": "jinritoutiao_2",
+        "app": "今日头条",
+        "query": "打开今日头条，查看我的消息私信",
+        "gt_steps": 3,
+        "key_component": [
+            "消息私信"
+        ]
+    },
+    {
+        "task_id": "fanqiemianfeixiaoshuo_4",
+        "app": "番茄免费小说",
+        "query": "打开番茄免费小说，搜索十日终焉并加入书架",
+        "gt_steps": 7,
+        "key_component": [
+            "加入书架成功"
+        ]
+    },
+    {
+        "task_id": "fanqiemianfeixiaoshuo_5",
+        "app": "番茄免费小说",
+        "query": "打开番茄免费小说，搜索斩神",
+        "gt_steps": 4,
+        "key_component": [
+            "斩神"
+        ]
+    },
+    {
+    "task_id": "mobilebank_1",
+    "app": "中国建设银行",
+    "query": "打开应用中国建设银行，查看中国建设银行固定期限的理财产品",
+    "gt_steps": 3,
+    "key_component": [
+      "固定期限",
+      "全部"
+    ]
+  },
+  {
+    "task_id": "qunar_1",
+    "app": "去哪儿旅行",
+    "query": "打开应用去哪儿旅行，搜索附近的钟点房",
+    "gt_steps": 6,
+    "key_component": [
+      "位置区域",
+      "可住"
+    ]
+  },
+  {
+    "task_id": "qunar_2",
+    "app": "去哪儿旅行",
+    "query": "打开应用去哪儿旅行，定从北京到上海的火车",
+    "gt_steps": 8,
+    "key_component": [
+      "北京",
+      "上海",
+      "火车"
+    ]
+  },
+  {
+    "task_id": "tongcheng_0",
+    "app": "同程旅行",
+    "query": "打开应用同程旅行，定从武汉到北京的机票",
+    "gt_steps": 4,
+    "key_component": [
+      "北京",
+      "武汉",
+      "北京大兴"
+    ]
+  },
+  {
+    "task_id": "meitupic_4",
+    "app": "美图秀秀",
+    "query": "打开应用美图秀秀，对相册中第一张图片进行抠图",
+    "gt_steps": 6,
+    "key_component": [
+      "保存",
+      "编辑抠图",
+      "变清晰",
+      "替换"
+    ]
+  },
+  {
+    "task_id": "cnrnetohos_1",
+    "app": "央广网",
+    "query": "打开应用央广网，搜索武汉大学图书馆相关新闻",
+    "gt_steps": 4,
+    "key_component": [
+      "武汉大学",
+      "图书馆"
+    ]
+  },
+  {
+    "task_id": "cnrnetohos_3",
+    "app": "央广网",
+    "query": "打开应用央广网，查看我的收藏",
+    "gt_steps": 3,
+    "key_component": [
+      "我的收藏",
+      "新闻"
+    ]
+  },
+  {
+    "task_id": "vip_1",
+    "app": "唯品会",
+    "query": "打开应用唯品会，搜索吉普冲锋衣的相关商品",
+    "gt_steps": 3,
+    "key_component": [
+      "JEEP",
+      "销量"
+    ]
+  },
+  {
+    "task_id": "uc_1",
+    "app": "UC浏览器",
+    "query": "打开应用UC浏览器，搜索鸡你太美",
+    "gt_steps": 4,
+    "key_component": [
+      "鸡你太美",
+      "蔡徐坤"
+    ]
+  },
+  {
+    "task_id": "uc_4",
+    "app": "UC浏览器",
+    "query": "打开应用UC浏览器，将小说完美世界加入书架",
+    "gt_steps": 6,
+    "key_component": [
+      "完美世界",
+      "打开书架"
+    ]
+  },
+  {
+    "task_id": "dcar_1",
+    "app": "懂车帝",
+    "query": "打开应用懂车帝，搜索奥迪A8",
+    "gt_steps": 6,
+    "key_component": [
+      "奥迪A8",
+      "新车"
+    ]
+  },
+  {
+    "task_id": "dcar_4",
+    "app": "懂车帝",
+    "query": "打开应用懂车帝，搜索小米SU7的二手车源",
+    "gt_steps": 6,
+    "key_component": [
+      "小米SU7",
+      "全部车源"
+    ]
+  },
+  {
+    "task_id": "mgtv_1",
+    "app": "芒果TV",
+    "query": "打开应用芒果TV，播放电视剧女神蒙上眼",
+    "gt_steps": 5,
+    "key_component": [
+      "女神蒙上眼",
+      "选集"
+    ]
+  },
+  {
+    "task_id": "zhihu_1",
+    "app": "知乎",
+    "query": "打开应用知乎，搜索武汉大学",
+    "gt_steps": 4,
+    "key_component": [
+      "杨景媛",
+      "武汉大学"
+    ]
+  },
+  {
+    "task_id": "mobileoffice_1",
+    "app": "WPS Office",
+    "query": "打开应用WPS Office，创建一个PPT演示，内容暂时为空，退出并保存文件名称为测试演示，查看是否保存成功",
+    "gt_steps": 8,
+    "key_component": [
+      "测试演示",
+      "最近"
+    ]
+  },
+  {
+    "task_id": "mobileoffice_4",
+    "app": "WPS Office",
+    "query": "打开应用WPS Office，搜索论文答辩模板",
+    "gt_steps": 5,
+    "key_component": [
+      "模板",
+      "毕业论文答辩"
+    ]
+  },
+  {
+    "task_id": "aiqiyi_1",
+    "app": "爱奇艺",
+    "query": "打开应用爱奇艺，搜索电影星际穿越",
+    "gt_steps": 4,
+    "key_component": [
+      "星际穿越",
+      "看哭百次的科幻片"
+    ]
+  },
+  {
+    "task_id": "youku_1",
+    "app": "优酷视频",
+    "query": "打开应用优酷视频，搜索仙剑奇侠传三",
+    "gt_steps": 4,
+    "key_component": [
+      "仙剑奇侠传三",
+      "立即播放"
+    ]
+  },
+  {
+    "task_id": "icbc_4",
+    "app": "中国工商银行",
+    "query": "打开应用中国工商银行，调出收款码",
+    "gt_steps": 3,
+    "key_component": [
+      "收付款",
+      "收款码"
+    ]
+  },
+  {
+    "task_id": "abc_2",
+    "app": "中国农业银行",
+    "query": "打开应用中国农业银行，查看投资进阶的理财产品",
+    "gt_steps": 6,
+    "key_component": [
+      "投资进阶",
+      "风险等级"
+    ]
+  },
+  {
+    "task_id": "dianping_3",
+    "app": "大众点评",
+    "query": "打开应用大众点评，搜索景点中山陵，并进入详情页面",
+    "gt_steps": 5,
+    "key_component": [
+      "中山陵",
+      "景点门票"
+    ]
+  },
+  {
+    "task_id": "jd_3",
+    "app": "京东",
+    "query": "打开应用京东，搜秒送正新鸡排外卖",
+    "gt_steps": 5,
+    "key_component": [
+      "正新鸡排",
+      "综合排序"
+    ]
+  },
+  {
+    "task_id": "mobilebank_5",
+    "app": "中国建设银行",
+    "query": "打开应用中国建设银行，存款存活期",
+    "gt_steps": 3,
+    "key_component": [
+      "立即存入"
+    ]
+  },
+  {
+    "task_id": "qunar_5",
+    "app": "去哪儿旅行",
+    "query": "打开应用去哪儿旅行，租上海的车，取车地点为浦东机场",
+    "gt_steps": 8,
+    "key_component": [
+      "快速选车"
+    ]
+  },
+  {
+    "task_id": "tongcheng_5",
+    "app": "同程旅行",
+    "query": "打开应用同程旅行，打车去武汉站",
+    "gt_steps": 6,
+    "key_component": [
+      "立即打车",
+      "武汉站"
+    ]
+  },
+  {
+    "task_id": "vip_5",
+    "app": "唯品会",
+    "query": "打开应用唯品会，关注耐克品牌店铺",
+    "gt_steps": 5,
+    "key_component": [
+      "订阅",
+      "全部商品"
+    ]
+  },
+  {
+    "task_id": "dcar_3",
+    "app": "懂车帝",
+    "query": "打开应用懂车帝，搜索小米SU7车友圈的帖子，并且给第一条帖子点赞",
+    "gt_steps": 6,
+    "key_component": [
+      "奥迪A8车友圈"
+    ]
+  },
+  {
+    "task_id": "mgtv_3",
+    "app": "芒果TV",
+    "query": "打开应用芒果TV，搜索防弹少年团的周边",
+    "gt_steps": 5,
+    "key_component": [
+      "时代少年团"
+    ]
+  },
+  {
+    "task_id": "youku_4",
+    "app": "优酷视频",
+    "query": "打开应用优酷视频，完善个人资料，将性别改为女并保存",
+    "gt_steps": 8,
+    "key_component": [
+      "个人资料",
+      "性别",
+      "女"
+    ]
+  },
+  {
+    "task_id": "cctv_1",
+    "app": "央视影音",
+    "query": "打开应用央视影音，搜索《我爱发明》节目并播放",
+    "gt_steps": 5,
+    "key_component": [
+      "我爱发明",
+      "收藏"
+    ]
+  },
+  {
+    "task_id": "cctv_4",
+    "app": "央视影音",
+    "query": "打开应用央视影音，观看cctv-1的直播",
+    "gt_steps": 4,
+    "key_component": [
+      "CCTV-1 综合",
+      "节目单"
+    ]
+  },
+  {
+    "task_id": "meituan_0",
+    "app": "美团",
+    "query": "打开应用美团，去拼好饭搜华莱士",
+    "gt_steps": 7,
+    "key_component": [
+      "华莱士"
+    ]
+  },
+  {
+    "task_id": "meituan_3",
+    "app": "美团",
+    "query": "打开应用美团，搜索正新鸡排外卖",
+    "gt_steps": 5,
+    "key_component": [
+      "正新鸡排",
+      "综合排序"
+    ]
+  },
+  {
+    "task_id": "alipay_1",
+    "app": "支付宝",
+    "query": "打开应用支付宝，打开付款码",
+    "gt_steps": 2,
+    "key_component": [
+      "收付款",
+      "向商家付款"
+    ]
+  },
+  {
+    "task_id": "alipay_4",
+    "app": "支付宝",
+    "query": "打开应用支付宝，查看明天从南京到北京的火车票",
+    "gt_steps": 8,
+    "key_component": [
+      "南京",
+      "北京",
+      "后一天"
+    ]
+  },
+  {
+    "task_id": "jd_0",
+    "app": "京东",
+    "query": "打开应用京东，搜秒送华莱士外卖",
+    "gt_steps": 5,
+    "key_component": [
+      "华莱士",
+      "到手价"
+    ]
+  },
+  {
+    "task_id": "zuoyebang_0",
+    "app": "作业帮",
+    "query": "打开应用作业帮，修改年级为高三，城市为淄博市",
+    "gt_steps": 4,
+    "key_component": [
+      "高三",
+      "淄博市"
+    ]
+  },
+  {
+    "task_id": "zuoyebang_3",
+    "app": "作业帮",
+    "query": "打开应用作业帮，将个人资料中的学校改为武汉大学",
+    "gt_steps": 8,
+    "key_component": [
+      "个人信息",
+      "学校",
+      "武汉大学"
+    ]
+  },
+  {
+    "task_id": "douyin_1",
+    "app": "抖音",
+    "query": "打开应用抖音，关注抖音博主文萍",
+    "gt_steps": 5,
+    "key_component": [
+      "文萍",
+      "已关注"
+    ]
+  },
+  {
+    "task_id": "douyin_3",
+    "app": "抖音",
+    "query": "打开应用抖音，抖音团购搜索正新鸡排",
+    "gt_steps": 5,
+    "key_component": [
+      "团购",
+      "正新鸡排"
+    ]
+  },
+  {
+    "task_id": "xiecheng_1",
+    "app": "携程旅行",
+    "query": "打开应用携程旅行，查询明天从青岛到上海的单程机票",
+    "gt_steps": 5,
+    "key_component": [
+      "青岛",
+      "上海",
+      "经济舱"
+    ]
+  },
+  {
+    "task_id": "xiecheng_2",
+    "app": "携程旅行",
+    "query": "打开应用携程旅行，查看黄鹤楼景区的详情",
+    "gt_steps": 5,
+    "key_component": [
+      "黄鹤楼"
+    ]
+  },
+  {
+    "task_id": "dingding_1",
+    "app": "钉钉",
+    "query": "打开应用钉钉，预约后天晚上八点钟到九点钟的视频会议，会议名称为测试会议二",
+    "gt_steps": 13,
+    "key_component": [
+      "测试会议",
+      "20:00 - 21:00",
+      "钉钉视频会议"
+    ]
+  }
+]

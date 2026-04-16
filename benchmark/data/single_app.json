@@ -1,0 +1,21 @@
+[
+    {
+        "task_id": "settings_0",
+        "app": "设置",
+        "query": "打开WIFI",
+        "gt_steps": 3,
+        "key_component": [
+            "WLAN"
+        ]
+    },
+    {
+        "task_id": "settings_1",
+        "app": "设置",
+        "query": "打开蓝牙",
+        "gt_steps": 3,
+        "key_component": [
+            "其他设备",
+            "可被附近的设备发现为"
+        ]
+    }
+]
